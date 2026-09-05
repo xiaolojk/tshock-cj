@@ -1,0 +1,14 @@
+/workspace/ProgressGifts/obj/Release/net9.0/ProgressGifts.csproj.AssemblyReference.cache
+/workspace/ProgressGifts/obj/Release/net9.0/ProgressGifts.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/ProgressGifts/obj/Release/net9.0/ProgressGifts.AssemblyInfoInputs.cache
+/workspace/ProgressGifts/obj/Release/net9.0/ProgressGifts.AssemblyInfo.cs
+/workspace/ProgressGifts/obj/Release/net9.0/ProgressGifts.csproj.CoreCompileInputs.cache
+/workspace/ProgressGifts/obj/Release/net9.0/ProgressGifts.sourcelink.json
+/workspace/ProgressGifts/bin/Release/net9.0/HttpServer.dll
+/workspace/ProgressGifts/bin/Release/net9.0/ProgressGifts.deps.json
+/workspace/ProgressGifts/bin/Release/net9.0/ProgressGifts.dll
+/workspace/ProgressGifts/bin/Release/net9.0/ProgressGifts.pdb
+/workspace/ProgressGifts/obj/Release/net9.0/ProgressGifts.dll
+/workspace/ProgressGifts/obj/Release/net9.0/refint/ProgressGifts.dll
+/workspace/ProgressGifts/obj/Release/net9.0/ProgressGifts.pdb
+/workspace/ProgressGifts/obj/Release/net9.0/ref/ProgressGifts.dll
