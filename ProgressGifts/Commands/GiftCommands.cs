@@ -10,7 +10,6 @@ namespace ProgressGifts.Commands
     /// <summary>/gift（/礼包）命令：查看、领取、管理。</summary>
     public static class GiftCommands
     {
-        private const string UsePerm = "progressgift.use";
         private const string AdminPerm = "progressgift.admin";
 
         private static ProgressGiftPlugin _plugin;
@@ -18,7 +17,8 @@ namespace ProgressGifts.Commands
         public static void Register(ProgressGiftPlugin plugin)
         {
             _plugin = plugin;
-            var cmd = new Command(UsePerm, Execute, "gift", "礼包")
+            // 基础命令不设权限门槛（默认组开箱即用）；管理子命令由 RequireAdmin 内部校验 progressgift.admin
+            var cmd = new Command(Execute, "gift", "礼包")
             {
                 HelpText = "进度礼包：/gift [页码] 查看，/gift claim <编号> 领取，/gift info <编号> 详情",
                 AllowServer = true,

@@ -33,7 +33,7 @@
 | `/gift reset <玩家> [编号\|all]` | （管理员）重置领取记录（支持离线玩家） |
 | `/gift setflag <玩家> <键> [值]` | （管理员）设置自定义事件标记（支持离线玩家） |
 
-**权限**：`progressgift.use`（使用）、`progressgift.admin`（管理）。
+**权限**：`/gift` 基础命令对所有玩家开放（无需配置）；管理子命令（reload / grant / reset / setflag、查看他人进度）需要 `progressgift.admin`。
 
 ## 配置示例
 
